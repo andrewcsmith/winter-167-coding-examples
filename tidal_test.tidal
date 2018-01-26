@@ -1,0 +1,11 @@
+d1 $ sound "bd:3"
+d2 $ sound "hh hh hh:1 hh"
+hush
+
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+hush
+
+d1 $ sound "[bd sd sd, hh hh hh hh] [cp, hh hh hh hh]"
+d2 $ sound "bd(5, 8)"
+d3 $ (|=| vowel "a o a e") $ sound "sn sn sn sn"
+hush
